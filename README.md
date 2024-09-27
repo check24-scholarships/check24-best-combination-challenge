@@ -10,6 +10,7 @@ Finding the best streaming packages from Magenta Sports, Amazon Prime, or Sky to
 - [Example 🖥️](#example)
 - [UI 💅](#ui)
 - [Data Processing 🧑🏼‍💻](#data-processing)
+- [What We're Looking For 🧐](#what-were-looking-for)
 - [Dataset ⚽️](#dataset)
 - [How Can I Hand In My Project? 🚀](#how-can-i-hand-in-my-project)
 - [Questions? ❓](#questions)
@@ -21,11 +22,11 @@ Build an application that allows users to compare the best streaming packages fo
 1. Team selection for one or multiple teams
 2. Ranking of streaming packages based on availability of streamed matches
 3. Offering the smallest price combination you can find if one package doesn't cover everything
-4. Reasonable search time - under 500ms
+4. Reasonable search time (make sure UX is not affected in a negative way)
 
 There's always room for an improved feature set. Maybe it can make sense to book monthly packages one after another expires, instead of purchasing multiple yearly ones together. Improve, adapt, overcome.
 
-More inspiration:
+More inspiration for additional features could be:
 
 1. Search by teams, leagues, date ranges and more
 2. Save past searches and recommend similar packages
@@ -51,6 +52,14 @@ The challenge shouldn't just be a simple CLI script but also implement a working
 ### Data Processing
 Performance is as always very important due to UX. The maximum duration has to be less than 500ms for the user facing part (UI showing the results), find the best combination possible in this time - the more efficient, the better. Use whatever tech stack you prefer and feel free to implement your own algorithms, data structure, caching or pre-computation.
 
+### What We're Looking For
+
+- **Code Quality**: Clean, maintainable, and well-documented code
+- **Performance**: Efficient algorithms and data structures
+- **User Experience**: Easy to use and reasonable search time
+- **Creativity**: Additional features or improvements to the basic requirements
+- **Documentation**: A README that explains your approach and how to run your project
+
 ## Dataset
 You can access the dataset [here](https://github.com/check24-scholarships/check24-best-combination-challenge-datasets). Included are three CSV files, which are the basis for your project. It's mostly real world data.
 
@@ -66,7 +75,6 @@ These packages are offered by companies like Magenta, Sky, etc. and have a month
 **Streaming Offers**
 An offer is from a streaming package for a specific game. It specifies the availability for live viewing or on demand highlights. Both availabilities should be included in the result comparison.
 
-
 ## How Can I Hand In My Project?
 
 Create a private GitHub repository and commit your code there. Provide READ permissions to [gendev@check24.de](mailto:gendev@check24.de) then, so that we can see what you have been building. When you hand in your application for the scholarship on our scholarship website, include the link to your GitHub repository.
@@ -80,7 +88,7 @@ What should be included:
     - Run your project in your own environment and demonstrate it by using screen recording (there are plenty of tools that can support you with that). Upload that video somewhere (e.g. YouTube or some other cloud and include a link to it in your README.md). 
     - If it's a Web App you can also host it anywhere and provide the link in the README.md. Don't spend too much time on the hosting, your code is the focus.
 
-So, what else? Have fun! We're looking forward hearing from you! 😎
+So, what else? Have fun! We're looking forward to hearing from you! 😎
 
 [Click here to start the challenge and access the datasets 🚀](https://check24-6th-gendev.vpetritz.net/)
 
