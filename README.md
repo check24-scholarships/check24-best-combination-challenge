@@ -1,8 +1,6 @@
-# CHECK24 GenDev Best Combination Challenge
+# CHECK24 GenDev Streaming Package Comparison Challenge
 
-**Note:**
-This is the challenge for the **6th round** of the [GenDev Scholarship](https://check24.de/gen-dev).
-We're looking forward to your application - happy coding. 🤓
+**Note:** This is the challenge for the **6th round** of the [GenDev Scholarship](https://check24.de/gen-dev).  We're looking forward to your application - happy coding. 🤓
 
 Finding the best streaming packages from Magenta Sports, Amazon Prime, or Sky to watch your favorite football team can be tricky with their extensive offerings. It's also an interesting problem to tackle if you want to get the best combination that fits all of Bayern Munichs matches during the Bundesliga and Champions League. Now it's your turn to build it!
 
@@ -17,7 +15,7 @@ Finding the best streaming packages from Magenta Sports, Amazon Prime, or Sky to
 - [Questions? ❓](#questions)
 
 ## The Challenge
-Build an application that allows users to compare the best streaming packages for watching their favorite teams' matches. Users can select one or more teams and receive a comparison of streaming packages based on the availability of the selected teams' games. If one package doesn't stream every match, the next step is to compute the best combination of packages. The combination of packages should cover as many games as possible while finding the lowest total price. Additionally, you can decide when it makes sense to add a package to another combination, taking into account the number of packages, price increase per additionally featured game or other metrics. The focus should be on comparing the most packages / finding the best combination in the given time.
+Build an application that allows users to compare the best streaming packages for watching their favorite teams' matches. Users can select one or more teams and receive a comparison of streaming packages based on the availability of the selected teams' games. If one package doesn't stream every match, the next step is to compute the best combination of packages. The combination of packages should cover as many games as possible while finding the lowest total price. The focus should be on comparing the most packages / finding the best combination in the given time.
 
 ### Minimum Requirements
 1. Team selection for one or multiple teams
@@ -51,7 +49,7 @@ Some interesting queries, that we'll test:
 The challenge shouldn't just be a simple CLI script but also implement a working user interface. It doesn't have to be fancy, but should be easy to use. We are open for a variety of different technologies, so feel free to create an iOS, Android, Leptos, Web or Desktop application. 
 
 ### Data Processing
-Performance is as always very important. The maximum duration has to be less than 500ms, find the best combination possible in this time. Use whatever tech stack you prefer and feel free to implement your own algorithms, data structure, caching or pre-computation.
+Performance is as always very important due to UX. The maximum duration has to be less than 500ms for the user facing part (UI showing the results), find the best combination possible in this time - the more efficient, the better. Use whatever tech stack you prefer and feel free to implement your own algorithms, data structure, caching or pre-computation.
 
 ## Dataset
 You can access the dataset [here](https://github.com/check24-scholarships/check24-best-combination-challenge-datasets). Included are three CSV files, which are the basis for your project. It's mostly real world data.
