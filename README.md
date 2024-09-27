@@ -25,7 +25,6 @@ Build an application that allows users to compare the best streaming packages fo
 3. Offering the smallest price combination you can find if one package doesn't cover everything
 4. Reasonable search time - under 500ms
 
-
 There's always room for an improved feature set. Maybe it can make sense to book monthly packages one after another expires, instead of purchasing multiple yearly ones together. Improve, adapt, overcome.
 
 More inspiration:
@@ -55,7 +54,7 @@ The challenge shouldn't just be a simple CLI script but also implement a working
 Performance is as always very important. The maximum duration has to be less than 500ms, find the best combination possible in this time. Use whatever tech stack you prefer and feel free to implement your own algorithms, data structure, caching or pre-computation.
 
 ## Dataset
-You can request the dataset [here](https://github.com/check24-scholarships/check24-best-combination-challenge-datasets). Included are three CSV files, which are the basis for your project. It's mostly real world data.
+You can access the dataset [here](https://github.com/check24-scholarships/check24-best-combination-challenge-datasets). Included are three CSV files, which are the basis for your project. It's mostly real world data.
 
 <img src="assets/db.png" width="100%">
 
