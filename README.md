@@ -50,7 +50,7 @@ Some interesting queries, that we'll test:
 The challenge shouldn't just be a simple CLI script but also implement a working user interface. It doesn't have to be fancy, but should be easy to use. We are open for a variety of different technologies, so feel free to create an iOS, Android, Leptos, Web or Desktop application. 
 
 ### Data Processing
-Performance is as always very important due to UX. The maximum duration has to be less than 500ms for the user facing part (UI showing the results), find the best combination possible in this time - the more efficient, the better. Use whatever tech stack you prefer and feel free to implement your own algorithms, data structure, caching or pre-computation.
+Performance is as always very important due to UX. The maximum duration has to be reasonable for the user facing part (UI showing the results), find the best combination possible in this time span - the more efficient, the better. Use whatever tech stack you prefer and feel free to implement your own algorithms, data structure, caching or pre-computation.
 
 ### What We're Looking For
 
